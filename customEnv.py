@@ -3,13 +3,11 @@ from poke_env.environment.doubles_env import DoublesEnv
 from typing import Optional, Union
 
 import numpy as np
-import numpy.typing as npt
 from gymnasium.spaces import Discrete
 
 from poke_env.battle import AbstractBattle
 from poke_env.battle.double_battle import DoubleBattle
-from poke_env.battle.pokemon import Pokemon
-from poke_env.environment.env import ObsType, PokeEnv
+from poke_env.environment.env import ObsType
 from poke_env.player.battle_order import (
     BattleOrder,
     DefaultBattleOrder,
