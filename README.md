@@ -10,6 +10,8 @@ This is a solo project from Duncan Hintz on the advanced track.
 I am a senior computer science student at WSU.
 
 HOW TO:
+The file Demo.html features a demo game from a fixed training set. Open in any browser to see a game. This was randomly chosen after learning.
+
 Clone the repo
 Install npm/node in the workspace
 Clone the pokemon-showdown repo
